@@ -1,0 +1,92 @@
+/* ปรับแต่งการแสดงผลในหน้า */
+body {
+background-size: cover;
+background-position: center;
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: grid;
+  gap: 12px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input, select, textarea {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.cancel-button {
+  background-color: #888;
+  color: white;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.delete-button:hover {
+  background-color: #e0392b;
+}
+
+.cancel-button:hover {
+  background-color: #666;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
